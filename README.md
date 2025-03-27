@@ -1,9 +1,9 @@
 # Plant Diseases Dataset 
 ### Penjelasan Proyek 
-Proyek ini merupakan proyek untuk membuat sebuah model yang dapat mengklasifikasikan Penyakit Tanaman Baru.
+Proyek ini bertujuan untuk mengembangkan model yang mampu mengklasifikasikan jenis penyakit pada tanaman yang baru ditemukan.
 
 ### Dataset
-Dataset yang saya gunakan adalah dataset [Plant Diseases Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset) yang saya ambil dari kaggle. Dataset ini memiliki 38 kelas yang berbeda. 
+Saya menggunakan dataset [Plant Diseases Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset) yang diperoleh dari Kaggle. Dataset ini mencakup 38 kelas yang berbeda.
 
 ### Distribusi Jumlah Gambar yang Digunakan:
 | Condition       | Number of Image |
