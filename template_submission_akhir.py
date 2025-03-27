@@ -7,9 +7,9 @@ Original file is located at
     https://colab.research.google.com/drive/1D9fh4syMVSXfL-Jg2idI5Qy_-MER8EmF
 
 # Proyek Klasifikasi Gambar: New Plant Diseases Dataset
-- **Nama:** Laila Dwi Kartika Sari
-- **Email:** e41220341@student.polije.ac.id
-- **ID Dicoding:** lailadwikartikasari
+- **Nama:** Rahmat Hidayat
+- **Email:** imjustrahmat2722@gmail.com
+- **ID Dicoding:**mc013d5y1559
 
 ## Import Semua Packages/Library yang Digunakan
 """
