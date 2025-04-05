@@ -538,12 +538,17 @@ early_stopping = EarlyStopping(monitor='val_accuracy', patience=3, min_delta=0.0
 
 num_epochs = 15  # Jumlah epoch pelatihan
 
+"""Melatih model selama 15 epoch dan menggunakan validation set untuk evaluasi selama pelatihan."""
+
+num_epochs = 15  # Jumlah epoch pelatihan
+
 H = model.fit(
     train_generator,       # Data latih yang telah diaugmentasi
     epochs=num_epochs,     # Jumlah epoch yang ditentukan (15)
-    validation_data=valid_generator,  # Menggunakan validation set, bukan test set
+    validation_data=valid_generator,  # Menggunakan validation set yang benar
     verbose=1              # Menampilkan log pelatihan
 )
+
 
 test_loss, test_acc = model.evaluate(test_generator, verbose=1)
 print(f"Test Accuracy: {test_acc:.4f}")
